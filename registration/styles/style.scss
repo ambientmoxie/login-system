@@ -1,0 +1,116 @@
+$blue-color: #008df5;
+$dark-grey: rgb(59, 59, 59);
+$light-grey: rgb(139, 139, 139);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  width: 500px;
+  //   border: 2px solid black;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 10px 30px 10px;
+  font-size: 1.4em;
+  color: $light-grey;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  height: 4em;
+  margin: 0 auto 30px auto;
+  left: 50%;
+  opacity: 0.9;
+}
+
+input {
+  display: block;
+  border: 1px solid $light-grey;
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  //   border-radius: 5px;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid $blue-color;
+  border-radius: 3px;
+}
+
+label {
+  color: $light-grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button {
+  display: block;
+  padding: 10px 30px;
+  margin: 30px auto;
+  color: $dark-grey;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 2px solid $light-grey;
+  background-color: white;
+}
+button:hover {
+  border: 2px solid $blue-color;
+  cursor: pointer;
+  color: $blue-color;
+}
+button:focus {
+  outline: none;
+  border: 2px solid $blue-color;
+  box-shadow: none;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: -20px;
+  color: rgb(105, 105, 105);
+  cursor: pointer;
+}
+p:hover {
+  text-decoration: underline;
+}
+p:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+h5 {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: normal;
+  color: rgb(255, 0, 0);
+}
+
+.rotate {
+  animation: rotation 20s infinite linear;
+}

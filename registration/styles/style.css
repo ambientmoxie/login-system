@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  width: 500px;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+}
+
+body {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 10px 30px 10px;
+  font-size: 1.4em;
+  color: #8b8b8b;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  height: 4em;
+  margin: 0 auto 30px auto;
+  left: 50%;
+  opacity: 0.9;
+}
+
+input {
+  display: block;
+  border: 1px solid #8b8b8b;
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid #008df5;
+  border-radius: 3px;
+}
+
+label {
+  color: #8b8b8b;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button {
+  display: block;
+  padding: 10px 30px;
+  margin: 30px auto;
+  color: #3b3b3b;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 2px solid #8b8b8b;
+  background-color: white;
+}
+
+button:hover {
+  border: 2px solid #008df5;
+  cursor: pointer;
+  color: #008df5;
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #008df5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: -20px;
+  color: dimgray;
+  cursor: pointer;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+p:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+h5 {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: normal;
+  color: red;
+}
+
+.rotate {
+  -webkit-animation: rotation 20s infinite linear;
+          animation: rotation 20s infinite linear;
+}
+/*# sourceMappingURL=style.css.map */
