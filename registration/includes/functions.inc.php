@@ -106,7 +106,11 @@ function loginUser($conn, $username, $pwd){
             exit();
         }
         else if ($checkPwd === true) {
-            header("location: ../dev/index.html");
+            session_set_cookie_params(0);
+            session_start();
+            $_SESSION["userid"] = $uidExists["usersId"];
+            $_SESSION["useruid"] = $uidExists["usersUid"];
+            header("location: ../dev/index.php");
             exit();
         }
 }

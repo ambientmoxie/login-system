@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +31,8 @@
                     echo "<h5>Incorrect login information.</h5>";
                 }
             }
-            ?>
+        ?>
+
     </form>
 
 </body>
